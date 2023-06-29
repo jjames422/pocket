@@ -347,21 +347,29 @@ export function Hero() {
                   options={{
                     strings:[
                       "Invest at the perfect time.",
-                      "Unleash Your Online Potential",
-                      "VPS Your Way",
+                      "Unleash Your Online Potential.",
+                      "VPS Your Way.",
+                      "Secure Email for your business.",
+                      "Web hosting for all business sizes.",
                     ],
                     autoStart: true,
                     loop: true,
                   }}
                 />
             </h1>
-            <p className="font-Odin mt-6 text-lg text-gray-600">
+            <p className="font-odin mt-6 text-lg text-gray-600">
             Utilizing knowledge gained from our extensive network of web development professionals, 
             you'll have the precise guidance on when to implement strategic updates to maximize your 
             online success, and when to make changes to avoid setbacks and complications. 
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              <AppStoreLink />
+              <Button
+                herf="#"
+                variant="outline"
+                className="bg-violet-700 text-white hover:bg-transparent hover:text-black"
+              >
+                Learn More
+                </Button>
               <Button
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                 variant="outline"
