@@ -5,53 +5,54 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
+      question: 'What is web development?',
       answer:
-        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
+        'Web development is the process of creating websites or web applications. It involves designing and building the structure, layout, and functionality of web pages using programming languages such as HTML, CSS, and JavaScript.',
     },
     {
-      question: 'Isn’t this insider trading?',
+      question: 'What is responsive web design?',
       answer:
-        'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know.',
+        'Responsive web design is an approach that ensures web pages automatically adapt and display properly across various devices and screen sizes. It involves using fluid layouts, flexible images, and media queries to provide an optimal viewing experience on desktops, tablets, and mobile devices.',
     },
     {
-      question: 'But isn’t insider trading illegal?',
+      question: 'What is VPS?',
       answer:
-        'Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here.',
-    },
-  ],
-  [
-    {
-      question: 'Do the people giving you tips realize what they are doing?',
-      answer:
-        'Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us.',
-    },
-    {
-      question: 'Where is Pocket based?',
-      answer:
-        'Let’s just say it’s not somewhere where the SEC is going to find us.',
-    },
-    {
-      question: 'Is there any age limit to trading on Pocket?',
-      answer:
-        'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog.',
+        'VPS stands for Virtual Private Server. It is a type of hosting service that provides virtualized server resources within a larger physical server infrastructure.',
     },
   ],
   [
     {
-      question: 'How did you get this on the App Store?',
+      question: 'Are there any benefits for VPS hosting?',
       answer:
-        'Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves.',
+      'Absolutely! Each VPS operates independently in its isolated environment, ensuring no impact on the performance and stability of other VPS instances.',
+      
     },
     {
-      question: 'How do I explain the money I withdraw from Pocket to the IRS?',
+      question: 'Where is are you based?',
       answer:
-        'This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns.',
+        'While our headquarters are in Winston-Salem, North Carolina, our cloud-based solutions transcend geographical boundaries with servers strategically positioned worldwide.',
     },
     {
-      question: 'How do I become an insider?',
+      question: 'Can I use my own domain with you?',
       answer:
-        'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
+        'Many of our clients use their domain (e.g., yourname@yourdomain.com) for a more professional and branded email address. DNS settings must be changed on your end (unless we host your domain), but don\'t worry\; we will provide step-by-step instructions.',
+    },
+  ],
+  [
+    {
+      question: 'What is a Motsinger?',
+      answer:
+        'Motsinger is our name. We are family owned and operated and have been since 1939. You trusted us to provide unparalleled service, so we slapped our name on the product.',
+    },
+    {
+      question: 'Do you allow SMTP port 25?',
+      answer:
+        'No. We do not allow this port on our VPS network. However\, our managed solutions can host any mail exchange for you. ',
+    },
+    {
+      question: 'When I clicked the video it was a man dancing\, why?',
+      answer:
+        'Congratulations! You have been Rick Rolled. Never gonna give you up\, never gonna let you down. Never gonna run around and desert you. It\'s a joke - that was suppose to happen.',
     },
   ],
 ]

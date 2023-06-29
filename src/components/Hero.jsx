@@ -366,7 +366,7 @@ export function Hero() {
               <Button
                 herf="#"
                 variant="outline"
-                className="bg-violet-700 text-white hover:bg-transparent hover:text-black"
+                className="bg-violet-700 text-white hover:bg-transparent hover:outline hover:text-black"
               >
                 Learn More
                 </Button>
