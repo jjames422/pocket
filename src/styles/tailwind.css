@@ -14,6 +14,22 @@
   font-named-instance: 'Italic';
   src: url('/fonts/Inter-italic.var.woff2') format('woff2');
 }
+@font-face {
+  font-family: "hoss-round", sans-serif;
+  font-weight: 400 700;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("https://use.typekit.net/uam7oqg.css");
+}
+
+@font-face{
+  font-family: "hoss-round", sans-serif;
+  font-weight: 400 700;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url("https://use.typekit.net/uam7oqg.css");
+}
+
 
 @tailwind base;
 @tailwind components;

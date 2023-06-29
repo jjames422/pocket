@@ -35,9 +35,13 @@ module.exports = {
       },
       colors: ({ colors }) => ({
         gray: colors.neutral,
+        violet: colors.violet,
+        cyan: colors.cyan,
+        deepblue: colors.blue,
       }),
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        
       },
       keyframes: {
         'fade-in': {
