@@ -1,7 +1,8 @@
-import { useId, useRef, useState } from 'react'
+import { useId, useRef, useEffect, useState } from 'react'
 import Image from 'next/image'
 import clsx from 'clsx'
 import { motion, useInView, useMotionValue } from 'framer-motion'
+import Typewriter from 'typewriter-effect'
 
 import { AppScreen } from '@/components/AppScreen'
 import { AppStoreLink } from '@/components/AppStoreLink'
@@ -334,6 +335,7 @@ function AppDemo() {
   )
 }
 
+
 export function Hero() {
   return (
     <div className="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36">
@@ -341,12 +343,22 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-              Invest at the perfect time.
+                <Typewriter
+                  options={{
+                    strings:[
+                      "Invest at the perfect time.",
+                      "Unleash Your Online Potential",
+                      "VPS Your Way",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
             </h1>
-            <p className="mt-6 text-lg text-gray-600">
-              By leveraging insights from our network of industry insiders,
-              you’ll know exactly when to buy to maximize profit, and exactly
-              when to sell to avoid painful losses.
+            <p className="font-Odin mt-6 text-lg text-gray-600">
+            Utilizing knowledge gained from our extensive network of web development professionals, 
+            you'll have the precise guidance on when to implement strategic updates to maximize your 
+            online success, and when to make changes to avoid setbacks and complications. 
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <AppStoreLink />
