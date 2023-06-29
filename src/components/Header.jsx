@@ -63,7 +63,7 @@ export function Header() {
               {({ open }) => (
                 <>
                   <Popover.Button
-                    className="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-gray-900 p-2 hover:bg-gray-200/50 hover:stroke-gray-600 active:stroke-gray-900 [&:not(:focus-visible)]:focus:outline-none"
+                    className="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-violet-700 p-2 hover:bg-gray-200/50 hover:stroke-violet-600 active:stroke-violet-700 [&:not(:focus-visible)]:focus:outline-none"
                     aria-label="Toggle site navigation"
                   >
                     {({ open }) =>
@@ -113,7 +113,7 @@ export function Header() {
                             <Button href="/login" variant="outline">
                               Log in
                             </Button>
-                            <Button href="#">Download the app</Button>
+                            <Button href="#" variant="solid">Register Now</Button>
                           </div>
                         </Popover.Panel>
                       </>
@@ -126,7 +126,7 @@ export function Header() {
               Log in
             </Button>
             <Button href="#" className="hidden lg:block">
-              Download
+              Register
             </Button>
           </div>
         </Container>
