@@ -41,7 +41,7 @@ module.exports = {
       }),
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
-        
+        odin: ['Odin', ...defaultTheme.fontFamily.sans],
       },
       keyframes: {
         'fade-in': {
