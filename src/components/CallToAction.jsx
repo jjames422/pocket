@@ -17,9 +17,8 @@ export function CallToAction() {
             Get your first tips today
           </h2>
           <p className="mt-4 text-lg text-gray-300">
-            It takes 30 seconds to sign up. Download the app and create an
-            account today and we’ll send you a tip guaranteed to double your
-            first investment.
+            It takes 30 seconds to sign up. Create an
+            account today and start your.,.. have no clue
           </p>
           <div className="mt-8 flex justify-center">
             <AppStoreLink color="white" />

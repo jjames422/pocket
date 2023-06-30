@@ -4,39 +4,39 @@ import { Container } from '@/components/Container'
 
 const features = [
   {
-    name: 'Invest any amount',
+    name: 'Dream it',
     description:
-      'Whether it’s $1 or $1,000,000, we can put your money to work for you.',
+      'Something stupid about their ideas',
     icon: DeviceArrowIcon,
   },
   {
-    name: 'Build a balanced portfolio',
+    name: 'Build it',
     description:
-      'Invest in different industries to find the most opportunities to win huge.',
+      'Website stuff',
     icon: DeviceCardsIcon,
   },
   {
-    name: 'Trade in real-time',
+    name: 'Secure it',
     description:
-      'Get insider tips on big stock moves and act on them within seconds.',
+      'Security',
     icon: DeviceClockIcon,
   },
   {
-    name: 'Profit from your network',
+    name: 'Store it',
     description:
-      'Invite new insiders to get tips faster and beat even other Pocket users.',
+      'Cloud Storage',
     icon: DeviceListIcon,
   },
   {
-    name: 'Encrypted and anonymized',
+    name: 'Host it',
     description:
-      'Cutting-edge security technology that even the NSA doesn’t know about keeps you hidden.',
+      'VPS',
     icon: DeviceLockIcon,
   },
   {
-    name: 'Portfolio tracking',
+    name: 'Send it',
     description:
-      'Watch your investments grow exponentially, leaving other investors in the dust.',
+      'Email',
     icon: DeviceChartIcon,
   },
 ]
@@ -196,11 +196,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-medium tracking-tight text-gray-900">
-            Now is the time to build your portfolio.
+            Now is the time to build your it.
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            With typical market returns, you have to start young to secure your
-            future. With Pocket, it’s never too late to build your nest egg.
+            You IT blah blah blah three lines here
           </p>
         </div>
         <ul
