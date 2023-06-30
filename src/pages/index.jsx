@@ -14,10 +14,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Pocket - Invest at the perfect time.</title>
+        <title>Motsinger - Security with a name </title>
         <meta
           name="description"
-          content="By leveraging insights from our network of industry insiders, you’ll know exactly when to buy to maximize profit, and exactly when to sell to avoid painful losses."
+          content="By utilizing knowledge gained from our extensive network of web development professionals, you'll have the precise guidance on when to implement strategic updates to maximize your online success, and when to make changes to avoid setbacks and complications."
+          keywords="web development, programming, coding, website design, front-end, back-end, VPS, virutal machines, hosting provider, Email, Cloud"
+          author="Jonathan M. James"
         />
       </Head>
       <Header />
