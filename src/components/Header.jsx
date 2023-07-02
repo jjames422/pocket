@@ -47,7 +47,7 @@ function MobileNavLink({ children, ...props }) {
 
 export function Header() {
   return (
-    <header>
+    <header className='bg-slate-900'>
       <nav>
         <Container className="relative z-50 flex justify-between py-8">
           <div className="relative z-10 flex items-center gap-16">
@@ -74,7 +74,8 @@ export function Header() {
                       )
                     }
                   </Popover.Button>
-                  <AnimatePresence initial={false}>
+                  {/*Mobile popup Nav*/}
+                  <AnimatePresence initial={false}> 
                     {open && (
                       <>
                         <Popover.Overlay
@@ -83,7 +84,7 @@ export function Header() {
                           initial={{ opacity: 0 }}
                           animate={{ opacity: 1 }}
                           exit={{ opacity: 0 }}
-                          className="fixed inset-0 z-0 bg-gray-300/60 backdrop-blur"
+                          className="fixed inset-0 z-0 bg-slate-700/60 backdrop-blur"
                         />
                         <Popover.Panel
                           static
@@ -94,8 +95,8 @@ export function Header() {
                             opacity: 0,
                             y: -32,
                             transition: { duration: 0.2 },
-                          }}
-                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
+                          }} 
+                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-slate-900 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
                             <MobileNavLink href="#features">
