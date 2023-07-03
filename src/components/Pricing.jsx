@@ -4,7 +4,7 @@ import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import { Logomark } from '@/components/Logo'
+import { Logo } from '@/components/Logo'
 
 const plans = [
   {
@@ -23,7 +23,7 @@ const plans = [
       'One tip every day',
       'Invest up to $1,500 each month',
     ],
-    logomarkClassName: 'fill-gray-300',
+    logoClassName: 'fill-gray-300',
   },
   {
     name: 'Investor',
@@ -42,7 +42,7 @@ const plans = [
       'Invest up to $15,000 each month',
       'Basic transaction anonymization',
     ],
-    logomarkClassName: 'fill-gray-500',
+    logoClassName: 'fill-gray-500',
   },
   {
     name: 'VIP',
@@ -62,7 +62,7 @@ const plans = [
       'Advanced transaction anonymization',
       'Automated tax-loss harvesting',
     ],
-    logomarkClassName: 'fill-violet-500',
+    logoClassName: 'fill-violet-500',
   },
 ]
 
@@ -95,7 +95,7 @@ function Plan({
   features,
   featured = false,
   activePeriod,
-  logomarkClassName,
+  logoClassName,
 }) {
   return (
     <section
@@ -110,7 +110,7 @@ function Plan({
           featured ? 'text-white' : 'text-gray-900'
         )}
       >
-        <Logomark className={clsx('h-6 w-6 flex-none', logomarkClassName)} />
+        <Logo className={clsx('h-6 w-6 flex-none', logoClassName)} />
         <span className="ml-4">{name}</span>
       </h3>
       <p
