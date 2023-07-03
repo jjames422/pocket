@@ -22,11 +22,11 @@ function QrCodeBorder(props) {
 
 export function Footer() {
   return (
-    <footer className="border-t border-gray-200">
+    <footer className="border-t bg-slate-900 border-violet-400">
       <Container>
         <div className="flex flex-col items-start justify-between gap-y-12 pb-6 pt-16 lg:flex-row lg:items-center lg:py-16">
           <div>
-            <div className="flex items-center text-gray-900">
+            <div className="flex items-center text-white">
               <Logo className="h-10 w-10 flex-none fill-violet-500" />
               <div className="ml-4">
                 <p className="text-base font-semibold">Motsinger Dev</p>
@@ -43,13 +43,13 @@ export function Footer() {
               <Image src={qrCode} alt="" unoptimized />
             </div>
             <div className="ml-8 lg:w-64">
-              <p className="text-base font-semibold text-gray-900">
+              <p className="text-base font-semibold text-violet-700">
                 <Link href="#">
                   <span className="absolute inset-0 sm:rounded-2xl" />
                   Download the app
                 </Link>
               </p>
-              <p className="mt-1 text-sm text-gray-700">
+              <p className="mt-1 text-sm text-violet-500">
                 Scan the QR code to download the app from the App Store.
               </p>
             </div>
@@ -70,8 +70,8 @@ export function Footer() {
               <span className="lg:hidden">Join newsletter</span>
             </Button>
           </form>
-          <p className="mt-6 text-sm text-gray-500 md:mt-0">
-            &copy; Copyright {new Date().getFullYear()}. All rights reserved.
+          <p className="mt-6 text-sm text-violet-500 md:mt-0">
+            &copy; Copyright {new Date().getFullYear()}. Motsinger Oil Company, Inc. All rights reserved.
           </p>
         </div>
       </Container>
